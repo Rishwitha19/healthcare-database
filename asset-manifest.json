@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/healthcare-database-sample/static/css/main.8094d7b6.css",
+    "main.js": "/healthcare-database-sample/static/js/main.10994e60.js",
+    "static/js/453.5c2caf90.chunk.js": "/healthcare-database-sample/static/js/453.5c2caf90.chunk.js",
+    "static/media/pngwing.com.png": "/healthcare-database-sample/static/media/pngwing.com.ecbaa8071703286f64b0.png",
+    "index.html": "/healthcare-database-sample/index.html",
+    "main.8094d7b6.css.map": "/healthcare-database-sample/static/css/main.8094d7b6.css.map",
+    "main.10994e60.js.map": "/healthcare-database-sample/static/js/main.10994e60.js.map",
+    "453.5c2caf90.chunk.js.map": "/healthcare-database-sample/static/js/453.5c2caf90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8094d7b6.css",
+    "static/js/main.10994e60.js"
+  ]
+}
