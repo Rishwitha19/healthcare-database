@@ -1,0 +1,158 @@
+/* HealthStatusCard */
+.health-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .health-title {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .health-status {
+    font-weight: bold;
+  }
+  
+  .status-green {
+    color: green;
+  }
+  
+  .status-orange {
+    color: orange;
+  }
+  
+  .status-red {
+    color: red;
+  }
+  
+  /* SimpleAppointmentCard */
+  .appointment-card {
+    background: #f0f6ff;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .appointment-title {
+    font-weight: 600;
+    color: #2b2b2b;
+  }
+  
+  .appointment-time {
+    color: #555;
+  }
+  
+  /* CalendarGrid */
+  .calendar-grid {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .calendar-month {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .calendar-days {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .calendar-day {
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: #666;
+  }
+  
+  .calendar-slots {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendar-slot {
+    width: 100%;
+    text-align: center;
+    background: #edf3fb;
+    padding: 0.5rem 0;
+    margin: 0 2px;
+    border-radius: 6px;
+  }
+  
+  .time-slot {
+    font-size: 0.85rem;
+    color: #444;
+  }
+  
+  /* AppointmentDetails */
+  .appointment-details {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+  }
+  
+  .appointment-item {
+    padding: 0.8rem;
+    border-radius: 8px;
+    color: #fff;
+    flex: 1;
+  }
+  
+  .blue {
+    background: #4c6ef5;
+  }
+  
+  .purple {
+    background: #845ef7;
+  }
+  
+  /* AnatomicalIllustration */
+  .anatomy-image img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* HealthStatusIndicators */
+  .anatomy-indicators {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .indicator {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  
+  .heart {
+    color: red;
+  }
+  
+  .leg {
+    color: #22a6b3;
+  }
+  .bar-chart {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    height: 100px;
+  }
+  
+ 
+  .bar {
+  width: 6px;
+  background: #3e82f7;
+  border-radius: 4px;
+}

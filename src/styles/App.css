@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #ffffff;
+  height: 100vh;
+  flex-shrink: 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+  padding: 2rem 1rem;
+  position: relative;
+  z-index: 2;
+ 
+  background: #f6f9fc;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  
+  
+}
+
+.main-content {
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f9fbfc;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}

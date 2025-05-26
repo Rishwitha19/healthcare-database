@@ -1,0 +1,66 @@
+
+
+.sidebar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1e1e2f;
+}
+.sidebar-logo .health-blue {
+  color: #3e82f7;  /* Blue */
+}
+
+.sidebar-logo .care-black {
+  color: #1e1e2f;  /* Black */
+}
+
+.sidebar-logo .dot {
+  color: #3e82f7;
+}
+
+.nav-section {
+  margin-bottom: 2rem;
+}
+
+.nav-heading {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 8px;
+  margin-bottom: 0.4rem;
+  border-radius: 8px;
+  cursor: default;
+  transition: background 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  background: #e4ecf7;
+}
+
+.nav-item .icon {
+  margin-right: 12px;
+  color: #4a4a6a;
+}
+
+.nav-item .label {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.setting-bottom {
+  margin-top: auto; /* 🔥 This pushes it to the bottom automatically */
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}

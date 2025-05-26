@@ -1,0 +1,60 @@
+.header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 1.5rem;
+}
+
+
+.header-logo .logo-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1e1e2f;
+}
+
+.header-logo .dot {
+  color: #3e82f7;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: #f2f4f7;
+  padding: 0.4rem 0.6rem;
+  border-radius: 8px;
+}
+
+.search-bar input {
+  border: none;
+  background: transparent;
+  margin-left: 0.5rem;
+  outline: none;
+}
+
+.notification-icon,
+.add-button,
+.user-profile {
+  background: #f2f4f7;
+  padding: 0.4rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.user-profile .user-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}

@@ -1,0 +1,29 @@
+.dashboard-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 0;
+}
+
+.dashboard-body {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.left-panel {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.right-panel {
+  flex: 2;
+  min-width: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

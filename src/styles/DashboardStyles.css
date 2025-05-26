@@ -1,0 +1,224 @@
+/* DashboardOverview.css */
+.dashboard-overview {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1f1f2f;
+  }
+  
+  /* HealthStatusCards.css */
+  .health-status-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  /* UpcomingSchedule.css */
+  .upcoming-schedule {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f9fbff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  }
+  
+  .upcoming-schedule h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* CalendarView.css */
+  .calendar-view {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+  }
+  
+  /* AnatomySection.css */
+  .anatomy-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+  }
+  
+  /* ActivityFeed.css */
+  .activity-feed {
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  }
+  
+  .activity-feed h2 {
+    font-size: 1.2rem;
+    color: #2b2b2b;
+  }
+  
+  .activity-feed p {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  /* Subcomponent Styles */
+  .health-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .health-title {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .health-status {
+    font-weight: bold;
+  }
+  
+  .status-green {
+    color: green;
+  }
+  
+  .status-orange {
+    color: orange;
+  }
+  
+  .status-red {
+    color: red;
+  }
+  
+  .appointment-card {
+    background: #f0f6ff;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .appointment-title {
+    font-weight: 600;
+    color: #2b2b2b;
+  }
+  
+  .appointment-time {
+    color: #555;
+  }
+  
+  .calendar-grid {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .calendar-month {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .calendar-days {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .calendar-day {
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: #666;
+  }
+  
+  .calendar-slots {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendar-slot {
+    width: 100%;
+    text-align: center;
+    background: #edf3fb;
+    padding: 0.5rem 0;
+    margin: 0 2px;
+    border-radius: 6px;
+  }
+  
+  .time-slot {
+    font-size: 0.85rem;
+    color: #444;
+  }
+  
+  .appointment-details {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+  }
+  
+  .appointment-item {
+    padding: 1rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: left;
+  }
+  .blue { background: #3f51b5; }
+  .purple { background: #9b59b6; }
+  
+  .appointment-card {
+    background: #f5f7ff;
+    border-radius: 12px;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+  
+  .anatomy-image img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .anatomy-indicators {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .indicator {
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  
+  .heart {
+    color: red;
+  }
+  
+  .leg {
+    color: #22a6b3;
+  }
+  .anatomy-indicators .indicator {
+    padding: 0.3rem 0.8rem;
+    background-color: #eef;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
